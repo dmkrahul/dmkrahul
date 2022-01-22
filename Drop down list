@@ -1,1 +1,36 @@
 I am just create a noramal drop down list menubar ....
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="mystyle.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drop down list</title>
+</head>
+<body>
+    <div id="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">News</a>
+                <ul>
+                    <li><a href="#">India</a></li>
+                    <li><a href="#">Japan ></a>
+                        <ul>
+                            <li<a>Japan1</a></li>
+                            <li<a>Japan2</a></li>
+                            <li<a>Japan3</a></li>
+                            <li<a>Japan4</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">England</a></li>
+                    <li><a href="#">America</a></li>
+                </ul>
+            </li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </div>
+</body>
+</html>
