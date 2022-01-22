@@ -34,3 +34,49 @@ I am just create a noramal drop down list menubar ....
     </div>
 </body>
 </html>
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#menu ul{
+    list-style: none;
+   background-image: url(bg.jpg);
+   display: inline-block;
+   margin: 2px 15px;
+}
+#menu ul li{
+    border: 3px solid white;
+    float: left;
+    line-height: 32px;
+    height: 32px;
+    width: 150px;
+    text-align: center;
+    position: relative;
+}
+#menu a{
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+#menu ul ul{
+    margin: 0px;
+    display: none;
+    position: absolute;
+    border: 3px solid white;
+}
+    #menu ul ul ul{
+        margin-left: 155px;
+        top: 6px;
+        padding: 10px;
+    }
+    #menu ul ul ul li a{
+        border: 3px solid white;
+        font-weight: bold;
+        color: white;
+    }
+#menu ul li:hover >ul { 
+display: block;
+}
